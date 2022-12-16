@@ -1,3 +1,4 @@
 import Card from './Card.svelte'
+import Label from './Label.svelte'
 
-export { Card }
+export { Card, Label }
