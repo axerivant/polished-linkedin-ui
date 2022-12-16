@@ -32,7 +32,7 @@
 	}
 </script>
 
-<nav class="flex gap-3">
+<nav class="flex gap-12">
 	{#each NavItems as { name, icon }}
 		<NavItem {name} {icon} isCurrent={isCurrentRoute(name)} />
 	{/each}
